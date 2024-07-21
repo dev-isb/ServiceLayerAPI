@@ -1,0 +1,42 @@
+{
+  "name": "example-swagger-autogen-using-router",
+  "version": "1.0.0",
+  "description": "Example showing the use of the swagger-autogen module with Router.",
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "private": false,
+  "keywords": [
+    "swagger",
+    "autogen",
+    "example",
+    "router"
+  ],
+  "author": {
+    "name": "Davi D. Baltar",
+    "email": "davibaltar.npm@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "start-gendoc": "node swagger.js"
+  },
+  "dependencies": {
+    "asterisk-manager": "^0.2.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^2.2.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "objection": "^3.0.1",
+    "pg": "^8.7.3",
+    "request-curl": "^1.4.1",
+    "swagger-autogen": "^2.21.3",
+    "swagger-ui-express": "^4.1.4",
+    "validator": "^13.7.0"
+  }
+}
